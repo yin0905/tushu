@@ -1,0 +1,9 @@
+登录网址：http://localhost:8080/tushushangcheng/front/index.html
+
+数据库需先导入
+
+项目部署：
+（1）在命令行cmd先切换到jar包所在的位置，
+（2）然后使用命令
+java -jar -Dspring.datasource.username=myuser（切换为自己的数据库用户名） -Dspring.datasource.password=mypassword （切换为自己的数据库密码）tushushangcheng-0.0.1-SNAPSHOT.jar   
+（3）最后使用网址直接在浏览器打开
